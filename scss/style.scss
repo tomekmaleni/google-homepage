@@ -2,6 +2,8 @@ html, body {
     box-sizing: border-box;
     overflow: hidden;
     height: 100%;
+    width:100%;
+    margin:0;
     font-family: arial,sans-serif;
     display:flex;
     flex-direction: column;
@@ -88,6 +90,8 @@ main {
         }
 
         input {
+            width:100%;
+            font-size:1em;
             border:none;
             outline:none;
 
@@ -127,5 +131,37 @@ main {
 }
 
 footer {
-    
+    background-color: #f2f2f2;
+    p {
+        color:rgba(0,0,0,.54);
+        border-bottom: 1px solid #dadce0;
+        padding:15px 30px;
+        margin:0;
+    }
+
+    ul {
+        display:flex;
+        list-style-type: none;
+        justify-content: space-between;
+        padding:15px 30px;
+        margin:0;
+
+        li {
+            padding-right: 25px;
+            font-size:0.9em;
+
+            a {
+                color:#70757a;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .right {
+            margin-left:auto;
+        }
+    }
 }
