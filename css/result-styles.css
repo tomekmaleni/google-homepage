@@ -1,0 +1,54 @@
+footer {
+  font-family: arial,sans-serif;
+  padding: 12px 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  padding-left: 180px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+footer ul a:hover {
+  text-decoration: none !important;
+  color: #3c4043;
+}
+
+footer div {
+  border-bottom: 1px solid #dadce0;
+}
+
+footer span {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 15px 7px 15px 180px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 60px;
+  line-height: 45px;
+}
+
+footer .border {
+  padding: 15px 15px 15px 0;
+  border-left: 1px solid #dadce0;
+}
+
+footer svg {
+  width: 10px;
+}
+
+footer .location {
+  padding-left: 0;
+  color: #1a73e8;
+}
+
+footer .location strong {
+  color: #3c4043;
+}
+/*# sourceMappingURL=result-styles.css.map */

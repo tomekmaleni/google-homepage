@@ -1,0 +1,43 @@
+ footer {
+    font-family: arial,sans-serif;
+    padding:12px 0;
+
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        padding-left: 180px;
+        justify-content: start;
+        a:hover {
+            text-decoration: none!important;
+            color:#3c4043;
+        }
+    }
+    div {
+        border-bottom: 1px solid #dadce0;
+    }
+    span {
+        font-size:0.9em;
+        color:rgba(0,0,0,.54);
+        padding: 15px 7px 15px 180px;
+        justify-content: start;
+        width:60px;
+        line-height:45px;
+    }
+    .border {
+        padding: 15px 15px 15px 0;
+        border-left:1px solid #dadce0;
+    }
+    svg {
+        width:10px;
+    }
+    .location {
+        padding-left:0;
+        color:#1a73e8;
+
+        strong {
+            color:#3c4043;
+        }
+    }
+ }
